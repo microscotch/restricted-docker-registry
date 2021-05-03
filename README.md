@@ -1,9 +1,9 @@
 # restricted-registry
 
-This repository holds a system design to prevent 
-* push more than one time a tag
+This repository demonstrate a restricted docker registry designs to prevent users to: 
+* push a tag more than one time 
 * push tag latests
-* push into a repository not matching apache
+* push a into a repository not matching a given path
 
 ## Architecture
 
